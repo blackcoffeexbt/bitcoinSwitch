@@ -41,32 +41,32 @@ export const elements = [
   {
     name: "socket",
     value: "",
-    label: "LNURLDEVICE SWITCH OPTION Use LNURLDevices extension in LNbits",
+    label: "LNURLDevice device string e.g. ws://legend.lnbits.com/api/v1/ws/abcdefghijklmnop",
     type: "text",
   },
   {
     name: "wallet",
     value: "",
     label:
-      "THRESHOLD OPTION (use lnurlp extension to make an lnurlp) wallet ID from LNbits",
+      "Wallet ID from LNbits",
     type: "text",
   },
   {
     name: "threshold",
     value: "",
-    label: "THRESHOLD OPTION amount to hit to trigger",
+    label: "Payment amount to reach to trigger switch",
     type: "text",
   },
   {
     name: "thresholdPin",
     value: "",
-    label: "THRESHOLD OPTION pin to trigger",
+    label: "Device GPIO pin to turn on when switch triggered",
     type: "text",
   },
   {
     name: "thresholdTime",
     value: "",
-    label: "THRESHOLD OPTION time to turn of for",
+    label: "Period of time in milliseconds to turn switch on",
     type: "text",
   },
 ];
